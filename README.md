@@ -15,4 +15,4 @@ Developed on Ruby version 3.0.0
 
 ## Usage
 
-Just run `ruby main.rb`
+Just run `ruby main.rb` and result will be show in console
