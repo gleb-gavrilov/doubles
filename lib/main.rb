@@ -9,17 +9,14 @@ if file_names.size == 0
   abort "Directory is empty!"
 end
 
-puts file_names.to_s
+hashes = file_worker.get_hashes(file_names)
 
-hash1 = file_worker.get_hashes(file_names[0])
-hash2 = file_worker.get_hashes(file_names[1])
-hash3 = file_worker.get_hashes(file_names[2])
-
-if hash1 == hash2
-  puts "yep!"
-elsif hash1 == hash3
-  puts "rly?"
+if hashes.empty?
+  abort "Something wrong"
 end
+
+puts hashes
+
 
 
 # 1) Чтение название файлов и запись их в массив
