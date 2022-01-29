@@ -10,7 +10,6 @@ class FileWorker
   end
 
   def get_hashes(file_names)
-    puts file_names.size
     if file_names.size == 0
       return {}
     end
