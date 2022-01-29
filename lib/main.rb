@@ -24,7 +24,7 @@ if doubles.empty?
 end
 
 
-doubles.each { |key, value|
+doubles.each { |_, value|
   if value.size != 0
     puts '================='
     puts 'Doubles:'
@@ -33,10 +33,4 @@ doubles.each { |key, value|
     }
   end
 }
-
-
-
-# 1) Чтение название файлов и запись их в массив
-# 2) получить хэши по списку файлов
-# 3) Пройтись по массиву хэшей
 
