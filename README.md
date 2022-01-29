@@ -20,21 +20,4 @@ Just run `ruby main.rb` and result will be show in console
 
 ## Result
 
-`=================
-Doubles:
-../data/file6.txt
-../data/file1.txt
-../data/file2.txt
-../data/file4.txt
-=================
-Doubles:
-../data/file5.txt
-../data/file3.txt
-=================
-Doubles:
-../data/img2.png
-../data/img1.png
-=================
-Doubles:
-../data/img5.png
-../data/img4.png`
+![Result output](result_screen.png) .
