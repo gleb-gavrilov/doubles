@@ -20,4 +20,4 @@ Just run `ruby main.rb` and result will be show in console
 
 ## Result
 
-![Result output](result_screen.png)
+![Result output](result_screen.png) .
