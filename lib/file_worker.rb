@@ -1,8 +1,12 @@
 require 'openssl'
 
 class FileWorker
-  def get_file_names(path = '../data/')
-    Dir.glob("#{path}*")
+  def initialize(path = '../data/')
+    @path = path
+  end
+
+  def get_file_names
+    Dir.glob("#{@path}*")
   end
 
   def get_hashes(file_names)
